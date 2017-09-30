@@ -2,11 +2,18 @@
 
 ## Installation
 
+Update Ubuntu
+
+```
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev python3-dev
+
+```
 Have to use python >= 3.5
 
 ```
 pip3 install steem
 ```
+
 
 ## Config
 

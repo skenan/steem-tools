@@ -7,7 +7,6 @@ from config import Key
 from log import Log
 
 user = Key['user_name']
-account = Account(user)
 logger = Log()
 
 wif = {
@@ -15,8 +14,8 @@ wif = {
 }
 
 try:
+    account = Account(user)
     steem = Steem(keys=wif)
-
     sbd = account.balances["rewards"]["SBD"]
     st = account.balances["rewards"]["STEEM"]
     vests = account.balances["rewards"]["VESTS"]
