@@ -17,6 +17,7 @@ pip3 install steem
 
 ## Config
 
+Rename the config_template.py to config.py  
 Replace with your own username and posting key in config.py
 
 
