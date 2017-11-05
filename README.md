@@ -12,8 +12,13 @@ Have to use python >= 3.5
 
 ```
 pip3 install steem
+pip3 install sendgrid
 ```
 
+## Set Steem Node
+ ```
+ steempy set nodes https://gtg.steem.house:8090/,https://steemd.steemit.com
+ ```
 
 ## Config
 
@@ -25,7 +30,7 @@ Replace with your own username and posting key in config.py
 
 Run the script every 30 minutes
 ```
-*/30 * * * * python3 ~/steem-tools/auto_claim.py
+*/30 * * * * python3 ~/steem-tools/claim/auto_claim.py
 ```
 
 

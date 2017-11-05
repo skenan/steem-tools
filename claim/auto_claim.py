@@ -25,5 +25,5 @@ try:
         steem.claim_reward_balance(account=user)
     else:
         logger.info('Nothing to claim')
-except:
-    logger.warning('Oops, something not right.')
+except Exception as e:
+    logger.warning('Oops, something not right.' + str(e))
