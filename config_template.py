@@ -2,6 +2,15 @@
 # -*- coding: utf-8 -*-
 
 Key = {
-    'user_name': '',
-    'posting_key': ''
+    'steem': {
+        'user_name': '',
+        'posting_key': ''
+    },
+    'send_grid': {
+        'key': '',
+        'from_email': ''
+    },
+    'google': {
+        'translate_key': ''
+    }
 }

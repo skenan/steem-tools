@@ -6,11 +6,11 @@ from steem.account import Account
 from config import Key
 from log import Log
 
-user = Key['user_name']
+user = Key['steem']['user_name']
 logger = Log()
 
 wif = {
-    "posting": Key['posting_key']
+    "posting": Key['steem']['posting_key']
 }
 
 try:
