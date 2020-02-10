@@ -2,9 +2,16 @@
 # -*- coding: utf-8 -*-
 
 Key = {
-    'steem': {
-        'user_name': '',
-        'posting_key': ''
+    'steem_accounts': [
+        {
+            'username': '',
+            'posting_key': '',
+            'active_key': ''
+        },
+    ],
+    'beem_accounts': {
+        'username': [],
+        'keys': []
     },
     'send_grid': {
         'key': '',

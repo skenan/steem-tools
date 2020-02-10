@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    container_name: steem-tools-app
+    image: steem-tools
+    restart: always
+    build: .
+    command: python main.py
+    volumes:
+      - .:/var/www/steem-tools

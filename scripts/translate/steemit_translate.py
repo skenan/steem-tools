@@ -1,8 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 import json
-
 import collections
 import requests
 from config import Key
