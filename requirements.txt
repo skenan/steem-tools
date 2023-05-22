@@ -1,4 +1,4 @@
-requests==2.22.0
+requests==2.31.0
 steem==1.0.1
 python-dateutil==2.8.1
 beem==0.20.9
